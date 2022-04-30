@@ -12,4 +12,7 @@ end
 use Rack::JSONBodyParser
 
 # Our application
+use EventsController
+use CategoriesController
 run ApplicationController
+
