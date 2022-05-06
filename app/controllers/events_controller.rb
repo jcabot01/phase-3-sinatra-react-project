@@ -23,7 +23,8 @@ class EventsController < ApplicationController
     event.update(
       event_name: params[:event_name],
       event_cost: params[:event_cost],
-      category_id: params[:category_id]
+      # category_id: params[:category_id]
+      # category_name: params[:category_name]
     )
     event.to_json
   end
